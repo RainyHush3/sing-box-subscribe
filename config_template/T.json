@@ -282,8 +282,8 @@
             "tag": "HongKong",
             "type": "urltest",
             "outbounds": [
-                "{all}",
-                "proxy"
+                "{all}"
+                
             ],
             "filter": [
                 {
@@ -301,8 +301,8 @@
             "tag": "TaiWan",
             "type": "urltest",
             "outbounds": [
-                "{all}",
-                "proxy"
+                "{all}"
+                
             ],
             "filter": [
                 {
@@ -320,8 +320,8 @@
             "tag": "Singapore",
             "type": "urltest",
             "outbounds": [
-                "{all}",
-                "proxy"
+                "{all}"
+                
             ],
             "filter": [
                 {
@@ -339,8 +339,8 @@
             "tag": "Japan",
             "type": "urltest",
             "outbounds": [
-                "{all}",
-                "proxy"
+                "{all}"
+                
             ],
             "filter": [
                 {
@@ -358,8 +358,8 @@
             "tag": "Korea",
             "type": "urltest",
             "outbounds": [
-                "{all}",
-                "proxy"
+                "{all}"
+              
             ],
             "filter": [
                 {
@@ -377,8 +377,8 @@
             "tag": "America",
             "type": "urltest",
             "outbounds": [
-                "{all}",
-                "proxy"
+                "{all}"
+            
             ],
             "filter": [
                 {
@@ -396,8 +396,8 @@
             "tag": "Others",
             "type": "selector",
             "outbounds": [
-                "{all}",
-                "proxy"
+                "{all}"
+              
             ],
             "filter": [
                 {
