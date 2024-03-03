@@ -68,10 +68,10 @@
             <form id="temp-json-form" method="POST" action="/edit_temp_json">
                 <textarea name="temp_json_data" rows="10" cols="40" style="width: 350px; height: 400px;">{{ temp_json_data | default('') }}</textarea>
                 <br>
-                <input type="submit" value="保存" style="width: 60px;">
+                <input type="submit" value="保存JSON数据">
             </form>
-            <div class="form-container" style="display: flex; align-items: center;">
-                <form method="POST" action="/generate_config" style="display: flex; align-items: center;">
+            <div class="form-container" style="display: flex; align-items: center;" >
+                <form  method="POST" action="/generate_config" style="display: flex; align-items: center;">
                     <select name="template_index">
                         {% for option in template_options %}
                         <option value="{{ loop.index - 1 }}">{{ option }}</option>
