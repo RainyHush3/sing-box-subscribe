@@ -316,7 +316,7 @@
                 {
                     "action": "include",
                     "keywords": [
-                        "|TW|tw|台湾|臺灣|台|Taiwan"
+                        "TW|tw|台湾|臺灣|台|Taiwan"
                     ]
                 }
             ],
@@ -335,7 +335,7 @@
                 {
                     "action": "include",
                     "keywords": [
-                        "|SG|sg|新加坡|狮|Singapore"
+                        "SG|sg|新加坡|狮|Singapore"
                     ]
                 }
             ],
@@ -354,7 +354,7 @@
                 {
                     "action": "include",
                     "keywords": [
-                        "|JP|jp|日本|東京|日|Japan"
+                        "JP|jp|日本|東京|日|Japan"
                     ]
                 }
             ],
