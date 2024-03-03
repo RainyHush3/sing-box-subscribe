@@ -274,8 +274,16 @@
             "tag": "China",
             "type": "selector",
             "outbounds": [
-                "include: 🇨🇳|济南|杭州|徐州|广东|浙江",
+                "{all}",
                 "direct"
+            ],
+            "filter": [
+                {
+                    "action": "include",
+                    "keywords": [
+                        "🇨🇳|济南|杭州|徐州|广东|浙江"
+                    ]
+                }
             ]
         },
         {
