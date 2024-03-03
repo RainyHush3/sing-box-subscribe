@@ -12,9 +12,9 @@
         {
             "url": "URL",
             "tag": "tag_2",
-            "enabled": false,
+            "enabled": true,
             "emoji": 0,
-            "subgroup": "命名/named",
+            "subgroup": "",
             "prefix": "",
             "User-Agent":"clashmeta"
         }
