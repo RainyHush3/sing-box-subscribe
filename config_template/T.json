@@ -281,7 +281,7 @@
                 {
                     "action": "include",
                     "keywords": [
-                        "🇨🇳|济南|杭州|徐州|广东|浙江"
+                        "济南|杭州|徐州|广东|浙江"
                     ]
                 }
             ]
@@ -297,7 +297,7 @@
                 {
                     "action": "include",
                     "keywords": [
-                        "🇭🇰|HK|hk|香港|港|HongKong"
+                        "HK|hk|香港|港|HongKong"
                     ]
                 }
             ],
@@ -316,7 +316,7 @@
                 {
                     "action": "include",
                     "keywords": [
-                        "🇹🇼|TW|tw|台湾|臺灣|台|Taiwan"
+                        "|TW|tw|台湾|臺灣|台|Taiwan"
                     ]
                 }
             ],
@@ -335,7 +335,7 @@
                 {
                     "action": "include",
                     "keywords": [
-                        "🇸🇬|SG|sg|新加坡|狮|Singapore"
+                        "|SG|sg|新加坡|狮|Singapore"
                     ]
                 }
             ],
@@ -354,7 +354,7 @@
                 {
                     "action": "include",
                     "keywords": [
-                        "🇯🇵|JP|jp|日本|東京|日|Japan"
+                        "|JP|jp|日本|東京|日|Japan"
                     ]
                 }
             ],
@@ -373,7 +373,7 @@
                 {
                     "action": "include",
                     "keywords": [
-                        "서울|🇰🇷|KR|kr|韩国|韩|Korea"
+                        "서울|KR|kr|韩国|韩|Korea"
                     ]
                 }
             ],
@@ -392,7 +392,7 @@
                 {
                     "action": "include",
                     "keywords": [
-                        "🇺🇸|US|us|美国|美|United States|Oregon"
+                        "|US|us|美国|美|United States|Oregon"
                     ]
                 }
             ],
