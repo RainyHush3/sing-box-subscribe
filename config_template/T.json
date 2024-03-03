@@ -392,7 +392,7 @@
                 {
                     "action": "include",
                     "keywords": [
-                        "|US|us|美国|美|United States|Oregon"
+                        "US|us|美国|美|United States|Oregon"
                     ]
                 }
             ],
