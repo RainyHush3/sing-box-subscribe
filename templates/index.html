@@ -2,7 +2,6 @@
 <html>
 <head>
     <meta charset="UTF-8">
-
     <link rel="icon" href="https://raw.githubusercontent.com/Toperlock/sing-box-subscribe/main/public/favicon.ico" type="image/x-icon">
     <title>生成sing-box配置</title>
     <style>
@@ -63,26 +62,24 @@
         </div>
         -->
         <div class="right-box">
-            <h1 style="text-align: center;">TSINGBOX</h1>
-            <h1 style="text-align: center;">Edit TEMP_JSON_DATA</h1>
+            <h1>Edit TEMP_JSON_DATA</h1>
             <form id="temp-json-form" method="POST" action="/edit_temp_json">
-                <textarea name="temp_json_data" rows="10" cols="40" style="width: 350px; height: 400px;">{{ temp_json_data | default('') }}</textarea>
+                <textarea name="temp_json_data" rows="10" cols="40" style="width: 400px; height: 400px;">{{ temp_json_data | default('') }}</textarea>
                 <br>
-                <input type="submit" value="保存JSON数据">
+                <input type="submit" value="save">
             </form>
-            <div class="form-container" style="display: flex; align-items: center;" >
-                <form  method="POST" action="/generate_config" style="display: flex; align-items: center;">
+            <button onclick="toggleLanguage()">Switch Language</button>
+            <div class="form-container" style="display: flex; align-items: center;">
+                <form method="POST" action="/generate_config" style="display: flex; align-items: center;">
                     <select name="template_index">
                         {% for option in template_options %}
                         <option value="{{ loop.index - 1 }}">{{ option }}</option>
                         {% endfor %}
                     </select>
-                    <input type="submit" value="选择模板并生成">
+                    <input type="submit" value="Select and Generate">
                 </form>
             </div>
-            <h1 style="text-align: center;">生成配置后复制导入SINGBOX</h1>
         </div>
-        
         <div class="config-content">
             <h3 style="margin: 8px 0; font-size: 14px;"><a href="https://github.com/Toperlock/sing-box-subscribe#%E9%A1%B5%E9%9D%A2%E6%93%8D%E4%BD%9C%E6%AD%A5%E9%AA%A4" target="_blank" rel="noopener noreferrer">请务必：点击查看操作说明！！！</a></h3>
             <h3 style="margin: 8px 0; font-size: 14px;"><a href="https://github.com/Toperlock/sing-box-subscribe/tree/main/instructions#steps-for-page-manipulation" target="_blank" rel="noopener noreferrer">Please be sure to: Click to view operation instructions!!!</a></h3>
@@ -108,7 +105,6 @@
             <h3 style="margin: 8px 0; font-size: 14px;"><a href="https://github.com/Toperlock/sing-box-subscribe/issues" target="_blank" rel="noopener noreferrer">Please open an issue on github if you encounter problems.</a></h3>
             <pre id="config-text"></pre>
         </div>
-        
     </div>
     <script>
         const initialTempJsonData = '{"subscribes":[{"url":"URL","tag":"tag_1","enabled":true,"emoji":1,"subgroup":"","prefix":"","User-Agent":"v2rayng"},{"url":"URL","tag":"tag_2","enabled":false,"emoji":0,"subgroup":"命名/named","prefix":"❤️","User-Agent":"clashmeta"}],"auto_set_outbounds_dns":{"proxy":"","direct":""},"save_config_path":"./config.json","auto_backup":false,"exclude_protocol":"ssr","config_template":"","Only-nodes":false}';
