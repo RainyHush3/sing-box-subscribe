@@ -1,6 +1,6 @@
 {
     "log": {
-        "level": "info",
+        "level": "debug",
         "timestamp": true
     },
     "experimental": {
@@ -206,46 +206,6 @@
         },
         {
             "tag": "Spotify",
-            "type": "selector",
-            "outbounds": [
-                "HongKong",
-                "TaiWan",
-                "Singapore",
-                "Japan",
-                "Korea",
-                "America",
-                "Others"
-            ]
-        },
-        {
-            "tag": "TikTok",
-            "type": "selector",
-            "outbounds": [
-                "HongKong",
-                "TaiWan",
-                "Singapore",
-                "Japan",
-                "Korea",
-                "America",
-                "Others"
-            ],
-            "default": "Singapore"
-        },
-        {
-            "tag": "NETFLIX",
-            "type": "selector",
-            "outbounds": [
-                "HongKong",
-                "TaiWan",
-                "Singapore",
-                "Japan",
-                "Korea",
-                "America",
-                "Others"
-            ]
-        },
-        {
-            "tag": "Apple",
             "type": "selector",
             "outbounds": [
                 "HongKong",
@@ -510,26 +470,6 @@
                 "outbound": "Spotify"
             },
             {
-                "rule_set": "geosite-tiktok",
-                "outbound": "TikTok"
-            },
-            {
-                "rule_set": "geoip-netflix",
-                "outbound": "NETFLIX"
-            },
-            {
-                "rule_set": "geosite-netflix",
-                "outbound": "NETFLIX"
-            },
-            {
-                "rule_set": "geosite-apple",
-                "outbound": "Apple"
-            },
-            {
-                "rule_set": "geosite-amazon",
-                "outbound": "Apple"
-            },
-            {
                 "rule_set": "geosite-microsoft",
                 "outbound": "Microsoft"
             },
@@ -567,20 +507,6 @@
                 "type": "remote",
                 "format": "binary",
                 "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geoip/telegram.srs",
-                "download_detour": "Global"
-            },
-            {
-                "tag": "geoip-netflix",
-                "type": "remote",
-                "format": "binary",
-                "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geoip/netflix.srs",
-                "download_detour": "Global"
-            },
-            {
-                "tag": "geoip-apple",
-                "type": "remote",
-                "format": "binary",
-                "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo-lite/geoip/apple.srs",
                 "download_detour": "Global"
             },
             {
@@ -637,34 +563,6 @@
                 "type": "remote",
                 "format": "binary",
                 "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/spotify.srs",
-                "download_detour": "Global"
-            },
-            {
-                "tag": "geosite-tiktok",
-                "type": "remote",
-                "format": "binary",
-                "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/tiktok.srs",
-                "download_detour": "Global"
-            },
-            {
-                "tag": "geosite-netflix",
-                "type": "remote",
-                "format": "binary",
-                "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/netflix.srs",
-                "download_detour": "Global"
-            },
-            {
-                "tag": "geosite-apple",
-                "type": "remote",
-                "format": "binary",
-                "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/apple.srs",
-                "download_detour": "Global"
-            },
-            {
-                "tag": "geosite-amazon",
-                "type": "remote",
-                "format": "binary",
-                "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/amazon.srs",
                 "download_detour": "Global"
             },
             {
